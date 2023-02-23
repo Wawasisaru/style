@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./bag.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+ background-attachment: fixed;
+    background-size: cover;
+    /* border: 2px solid red; */
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logotext > a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+
+
+}
+.topnavbar{
+    color: rgb(5, 0, 0);
+    text-align: center;
+    padding: 20px 30px 22px 124px; 
+    font-size: medium;
+    overflow: hidden;
+    color: aliceblue;
+    text-decoration: none;
+} 
+.topnavbar > *{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+.topnavbar > a:hover{
+    color:gray
+}
+
+.topnavbar.active{
+    background-color: black;
+    color: dimgray;
+}
+#Login{
+    border: 2px solid white;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+#Login:hover{
+    background-color: black;
+    color: azure;
+}
+#Personalize{
+    font-size: 25px;
+
+}
+#text{
+    font-size: 20px;
+    margin-top: 3%;
+    color:rgba(2, 4, 19, 0.952);
+}
+
+#Ordernow{
+    border: 3px solid white;
+    padding:8px 28px;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+#Ordernow:hover{
+    background-color: white;
+    color: black;
+
+}
+.Ordernow{
+    margin-top: 6%;
+}
+.container2{
+    padding: 20px 25px;
+    margin-top: 5%;
+}
